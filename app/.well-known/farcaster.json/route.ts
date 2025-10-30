@@ -8,7 +8,7 @@ const farcasterConfig = {
   },
   "frame": {
     "version": "1",
-    "name": "Example Frame",
+    "name": "Aldo mini app",
     "iconUrl": "https://aldofarcaster-miniapp-vzeo.vercel.app/icon.png",
     "homeUrl": "https://aldofarcaster-miniapp-vzeo.vercel.app",
     "imageUrl": "https://aldofarcaster-miniapp-vzeo.vercel.app/image.png",
