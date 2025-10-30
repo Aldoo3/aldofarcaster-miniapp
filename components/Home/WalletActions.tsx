@@ -24,7 +24,7 @@ const simplePayableAbi = [
 ] as const
 
 // Adresse de ton contrat déployé sur Base mainnet
-const contractAddress = '0xd16440dD226Cee618069f56600518546ed6829eF'
+const contractAddress = '0x8c92a28b0D8E09858bc23cD39130b04b4bA2f79f'
 
 // Montant envoyé à chaque vote (doit être > 0)
 const VOTE_AMOUNT = '0.000001' // en ETH
