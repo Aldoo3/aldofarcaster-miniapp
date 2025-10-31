@@ -40,8 +40,8 @@ export function WalletActions() {
   const { writeContractAsync, isPending, data: txHash } = useWriteContract()
 
   // Questions
-  const q1 = 'Will Base airdrop happen before the end of Q2 2025?'
-  const q2 = 'Will $MEGA launch before the end of this year?'
+  const q1 = 'Will Base airdrop happen before the end of Q2 2026?'
+  const q2 = 'Do you GM?'
 
   async function vote(questionId: 1 | 2, choice: 'YES' | 'NO') {
     const message = `Q${questionId}|${choice}` // ex: "Q1|YES"
