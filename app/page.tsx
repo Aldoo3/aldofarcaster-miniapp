@@ -6,7 +6,7 @@ const frame = {
   version: 'next',
   imageUrl: `${APP_URL}/images/feed.png`,
   button: {
-    title: 'Aldo app',
+    title: 'Do you GM?',
     action: {
       type: 'launch_frame',
       name: 'Aldo MiniApp',
@@ -19,9 +19,9 @@ const frame = {
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: 'dz Farcaster MiniApp',
+    title: 'GM App',
     openGraph: {
-      title: 'dz Farcaster MiniApp',
+      title: 'GM App',
       description: 'A template for building mini-apps on Farcaster and Base',
     },
     other: {
