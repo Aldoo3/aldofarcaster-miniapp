@@ -6,7 +6,7 @@ const frame = {
   version: 'next',
   imageUrl: `${APP_URL}/images/feed.png`,
   button: {
-    title: 'Launch Template',
+    title: 'Aldo app',
     action: {
       type: 'launch_frame',
       name: 'Aldo MiniApp',
