@@ -40,7 +40,7 @@ export function WalletActions() {
   const { writeContractAsync, isPending, data: txHash } = useWriteContract()
 
   // Questions
-  const q1 = 'Will Base airdrop happen before the end of Q2 2026?'
+  
   const q2 = 'Do you GM?'
 
   async function vote(questionId: 1 | 2, choice: 'YES' | 'NO') {
@@ -84,26 +84,7 @@ export function WalletActions() {
 
         {chainId === base.id ? (
           <div className="space-y-5">
-            {/* --- Question 1 --- */}
-            <div className="border border-[#333] p-4 rounded-md space-y-3">
-              <h3 className="text-lg font-semibold">{q1}</h3>
-              <div className="flex gap-3">
-                <button
-                  disabled={isPending}
-                  onClick={() => vote(1, 'YES')}
-                  className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 disabled:opacity-60"
-                >
-                  Yes
-                </button>
-                <button
-                  disabled={isPending}
-                  onClick={() => vote(1, 'NO')}
-                  className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 disabled:opacity-60"
-                >
-                  No
-                </button>
-              </div>
-            </div>
+           
 
             {/* --- Question 2 --- */}
             <div className="border border-[#333] p-4 rounded-md space-y-3">
